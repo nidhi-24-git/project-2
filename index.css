@@ -1,0 +1,111 @@
+/* global css */
+{
+    margin: 0;
+    padding : 0;
+     
+    
+}
+.global-btn{
+    width:140px;
+    height:40px;
+    background-color:black;
+    color:white
+}
+ .global-section{
+    padding:3rem 0;
+
+}
+.global-heading{
+    font-size:55px;
+    text-align:center;
+}
+.global-head-p{
+    color:#7B7B7B;
+    text-align:center;
+}
+    /*header*/
+    header{
+        background-color: black;
+        color:white;
+        display: flex;
+    }
+    .main-menu ul li{
+       
+        display:inline;
+        text-align: right;
+    }
+/* first section */
+.first-section{
+    background-image: url(img/wp9269206.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10rem 0;
+    text-align:center;
+}
+.first-section p{
+    font-size: 2rem;color: black;
+   margin:5px;
+}
+.first-section h2{
+    font-size: 5rem;color: rgb(91, 92, 101);
+    margin:10px 0;
+}
+
+/* about section*/
+.about-main-div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:3rem 0;
+}
+.about-sub-div2{
+    width:500px;
+ 
+}
+.about-sub-div2 h2{
+    font-size:33px;
+   
+}
+
+.about-sub-div2 p{
+    color:#7B7B7B;
+    margin:15px;
+}
+/*this is service*/
+.grid-container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-single-item{
+    padding:50px;
+    text-align:center;
+}
+/*contact-section*/
+.contact-heading{
+    font-size: 55px;
+    text-align: center;
+}
+form{
+    margin-left: 38rem;
+    margin-top: 20px;
+}
+form input{
+    width:252px;
+
+}
+.submit-btn{
+    width:150px;
+    height: 25px;
+    background-color: black;
+    color:white
+}
+/*footer*/
+footer{
+    background-color: black;
+    color:white;
+    height:3rem ;
+}
+    footer p{
+padding-top: 15px;
+    }
